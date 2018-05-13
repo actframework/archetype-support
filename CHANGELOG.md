@@ -1,5 +1,9 @@
 # ActFramework Starter Support
 
+**1.8.8.0** 13/May/2018
+
+* Add e2e test log configuration in `logback.xml` file.
+
 **1.8.7.1** 5/May/2018
 
 * update `run_prod` as now we package in `tar.gz` format

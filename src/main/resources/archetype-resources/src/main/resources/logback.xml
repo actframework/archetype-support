@@ -12,6 +12,16 @@
     </encoder>
   </appender>
 
+  <!-- Console output for act-e2e test log -->
+  <appender name="E2E_STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <!-- By default, encoders are assigned the type ch.qos.logback.classic.encoder.PatternLayoutEncoder -->
+    <withJansi>true</withJansi>
+    <encoder>
+      <pattern>%msg%n</pattern>
+    </encoder>
+  </appender>
+
+  <!-- main log file -->
   <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
     <file>act.log</file>
     <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
@@ -27,6 +37,14 @@
     <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
       <MaxFileSize>2MB</MaxFileSize>
     </triggeringPolicy>
+  </appender>
+
+  <!-- act-e2e test log file -->
+  <appender name="E2E_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>e2e.log</file>
+    <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+      <Pattern>%msg%n</Pattern>
+    </encoder>
   </appender>
 
   <appender name="DB_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
@@ -76,7 +94,12 @@
     <appender-ref ref="DB_FILE" />
   </logger>
 
-  <logger name="metric.act" level="TRACE">
+  <logger name="act.e2e" level="INFO" additivity="false">
+    <appender-ref ref="E2E_STDOUT"/>
+    <appender-ref ref="E2E_FILE"/>
+  </logger>
+
+  <logger name="act.metric" level="TRACE">
     <appender-ref ref="METRIC_FILE" />
   </logger>
 
