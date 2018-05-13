@@ -13,10 +13,15 @@
         <include>**/*.java</include>
       </includes>
     </fileSet>
+    <fileSet filtered="true" encoding="UTF-8">
+      <directory>src/main/resources</directory>
+      <includes>
+        <include>**/logback.xml</include>
+      </includes>
+    </fileSet>
     <fileSet encoding="UTF-8">
       <directory>src/main/resources</directory>
       <includes>
-        <include>logback.xml</include>
         <include>**/*.properties</include>
       </includes>
     </fileSet>
@@ -30,6 +35,19 @@
       <directory>src/main/resources/rythm</directory>
       <includes>
         <include>**/*.html</include>
+        <include>**/*.html</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory>src/main/resources/rythm</directory>
+      <includes>
+        <include>**/*.rythm</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory>src/main/resources/e2e</directory>
+      <includes>
+        <include>**/*.*</include>
       </includes>
     </fileSet>
     <fileSet encoding="UTF-8">

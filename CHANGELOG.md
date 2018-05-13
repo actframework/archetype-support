@@ -1,5 +1,10 @@
 # ActFramework Starter Support
 
+**1.8.8.1** 13/May/2018
+
+* add run_e2e script
+* add act-e2e dependency
+
 **1.8.8.0** 13/May/2018
 
 * Add e2e test log configuration in `logback.xml` file.
