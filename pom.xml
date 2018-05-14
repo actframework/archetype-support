@@ -30,7 +30,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <scm.url>git@github.com:actframework/archetype-support.git</scm.url>
-    <act-starter.version>1.8.8.0-SNAPSHOT</act-starter.version>
+    <act-starter.version>1.8.8.1</act-starter.version>
   </properties>
 
   <scm>
