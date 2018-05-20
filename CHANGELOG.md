@@ -1,5 +1,9 @@
 # ActFramework Starter Support
 
+**1.8.8.3** 20/May/2018
+
+* update to act-starter-1.8.8.2
+
 **1.8.8.2** 14/May/2018
 
 * update pom.xml for template project - update to act-starter-1.8.8.1
