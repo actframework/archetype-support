@@ -1,5 +1,9 @@
 # ActFramework Starter Support
 
+**1.8.8.4** 20/May/2018
+
+* update to act-starter-1.8.8.3
+
 **1.8.8.3** 20/May/2018
 
 * update to act-starter-1.8.8.2
