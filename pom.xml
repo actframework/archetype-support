@@ -23,14 +23,14 @@
   <parent>
     <groupId>org.actframework</groupId>
     <artifactId>parent</artifactId>
-    <version>1.8.8-RC7</version>
+    <version>1.8.8-RC8</version>
   </parent>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <scm.url>git@github.com:actframework/archetype-support.git</scm.url>
-    <act-starter.version>1.8.8.3</act-starter.version>
+    <act-starter.version>1.8.8.4</act-starter.version>
   </properties>
 
   <scm>

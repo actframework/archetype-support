@@ -1,6 +1,7 @@
 #!/bin/sh
 if [ ! -f target/dist/start ]; then
-    mvn clean package
+    echo building ...
+    mvn -q clean package
     cd target/dist
     tar xzf *.tar.gz
 else

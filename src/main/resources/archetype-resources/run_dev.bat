@@ -1,1 +1,2 @@
-mvn compile act:run
+echo building ...
+mvn -q compile act:run

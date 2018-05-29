@@ -1,1 +1,2 @@
-mvn compile act:e2e
+echo building ...
+mvn -q compile act:e2e
