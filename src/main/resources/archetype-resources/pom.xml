@@ -22,4 +22,12 @@
     <app.entry>\${groupId}.AppEntry</app.entry>
   </properties>
 
+  <dependencies>
+    <dependency>
+      <groupId>org.actframework</groupId>
+      <artifactId>act-e2e</artifactId>
+      <version>0.0.7</version>
+    </dependency>
+  </dependencies>
+
 </project>
