@@ -1,5 +1,9 @@
 # ActFramework Starter Support
 
+**1.8.8.7** 20/May/2018
+
+* updaete to act-starter-1.8.8.5
+
 **1.8.8.6** 30/May/2018
 
 * add act-e2e 0.0.7 dependency
